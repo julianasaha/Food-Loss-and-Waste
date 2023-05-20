@@ -1,4 +1,4 @@
-#  Insert Project title
+# Food Loss and Waste
 ----
 By: Lisa Liang, Juliana Sahagun, Triston Crossland
 
