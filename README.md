@@ -1,7 +1,7 @@
 # Food Loss and Waste 
-----
 By: Lisa Liang, Juliana Sahagun, Triston Crossland
 
+---
 # Table of Contents:
 
 <!--ts-->
