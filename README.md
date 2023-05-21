@@ -1,7 +1,19 @@
 # Food Loss and Waste 
 ----
 By: Lisa Liang, Juliana Sahagun, Triston Crossland
+# Table of Contents:
+=================
 
+<!--ts-->
+   * [Problem Statement](https://github.com/julianasaha/Group-Project4#problem-statement)
+   * [Background Information](#background-information)
+   * [Data](#data)
+   * [Methods](#methods)
+   * [Models' Results and Evaluation](#models-results-and-evaluation)
+   * [Recommendations](#recommendations)
+   
+   
+<!--te-->
 
 ## Problem Statement:
 
