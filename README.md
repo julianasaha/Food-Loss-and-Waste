@@ -13,10 +13,11 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
    * [Recommendations](#recommendations)
    
 
-## Problem Statement:
-
 
 ## Background Information:
+
+## Problem Statement:
+
 
 
 ### Data:
