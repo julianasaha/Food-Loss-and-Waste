@@ -3,7 +3,6 @@
 By: Lisa Liang, Juliana Sahagun, Triston Crossland
 
 # Table of Contents:
----
 
 <!--ts-->
    * [Background Information](#background-information)
