@@ -20,7 +20,7 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
 
 
 ## Background Information:
-Our group consists of data scientists who have been contracted  by the United Nations. Our mission is to identify rational data-driven solutions for pressing domestic and global issues. Specifically, our team was tasked with building models that would address Target 12.3 of the SDG, which states “by 2030, halve the per capita global food waste at the retail and consumer level, and reduce food losses along production and supply chains including post-harvest losses.”
+Our group consists of data scientists who have been contracted  by the United Nations. Our mission is to identify rational data-driven solutions for pressing domestic and global issues. Specifically, our team was tasked with building models that would address Target 12.3 of the Sustainable Development Goals (SDG), which states “by 2030, halve the per capita global food waste at the retail and consumer level, and reduce food losses along production and supply chains including post-harvest losses.”
 
 This work is critical as reducing food waste and loss not only has the potential to feed the hungry but also to conserve our natural resources, combat climate change, and promote economic efficiency. Our approach employs various machine learning and statistical models to understand, predict, and ultimately curb waste patterns, providing a roadmap to a sustainable future where resources are optimally utilized, and no one goes to bed hungry.
 
