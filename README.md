@@ -6,7 +6,8 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
 
 <!--ts-->
    * [Background Information](#background-information)
-   * [Problem Statement](https://github.com/julianasaha/Group-Project4#problem-statement)
+   * [Problem Statement](#problem-statement)
+   * [Model Goals](#model-goals)
    * [Data](#data)
    * [Methods](#methods)
    * [Models' Results and Evaluation](#models-results-and-evaluation)
@@ -15,9 +16,19 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
 
 
 ## Background Information:
+Our group consists of data scientists who have been contracted  by the United Nations. Our mission is to identify rational data-driven solutions for pressing domestic and global issues. Specifically, our team was tasked with building models that would address Target 12.3 of the SDG, which states “by 2030, halve the per capita global food waste at the retail and consumer level, and reduce food losses along production and supply chains including post-harvest losses.”
+
+This work is critical as reducing food waste and loss not only has the potential to feed the hungry but also to conserve our natural resources, combat climate change, and promote economic efficiency. Our approach employs various machine learning and statistical models to understand, predict, and ultimately curb waste patterns, providing a roadmap to a sustainable future where resources are optimally utilized, and no one goes to bed hungry.
 
 ## Problem Statement:
+Leveraging advanced machine learning techniques, our team is developing models that address both aspects of Target 12.3, with two primary objectives: identifying the stages of food supply where loss occurs, and predicting the percentage of food wasted in different countries.
 
+## Model Goals:
+
+Our classification models are designed to reliably categorize the stage of food loss–be it production, post-harvest, retail, or consumption–based on a variety of factors including the type of commodity, year, loss percentage, and regional activities. This model will provide actionable insights that could streamline the food supply chain and significantly reduce food waste.
+Our regression models are designed to accurately estimate the percentage of food loss across various nations. This model factors in not only the production and environmental circumstances but also the societal and economic conditions, thus providing a comprehensive understanding of food waste. By highlighting the underlying causes, we can begin to address this global issue at its roots.
+
+We have integrated elements of both supervised and ensemble learning into these models, striking a balance between utilizing existing knowledge and uncovering new patterns. Ultimately, our project contributes to the urgent global endeavor of minimizing food waste, thereby promoting environmental sustainability, economic efficiency, and human welfare. 
 
 
 ### Data:
