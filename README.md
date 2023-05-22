@@ -11,7 +11,7 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
    * [Data](#data)
    * [Methods](#methods)
    * [Models' Results and Evaluation](#models-results-and-evaluation)
-   * [Recommendations](#recommendations)
+   * [Conclusions & Recommendations](#conclusions--recommendations)
    
 
 
@@ -39,7 +39,7 @@ Geographical Data - https://github.com/albertyw/avenews/blob/master/old/data/ave
 
 # Methods
 
-**Data Collection**
+####**Data Collection**
 
 1. Gathered a dataset from the Food and Agriculture Organization of the United Nations containing information on food loss and waste throughout the years 2000- 2021
 
@@ -47,7 +47,7 @@ Geographical Data - https://github.com/albertyw/avenews/blob/master/old/data/ave
 
 3. Combined both datasets to create a final data frame resulting in  additional features, enhancing the performance of the models
 
-**Data Cleaning:**
+####**Data Cleaning:**
 
 1. Columns  'ISO 3166 Country Code’, 'url', 'loss_percentage_original', 'm49_code', 'cpc_code', and 'method_data_collection' were not relevant for us to look at for our project 
 
@@ -63,7 +63,7 @@ Geographical Data - https://github.com/albertyw/avenews/blob/master/old/data/ave
 
 
 
-**Exploratory Data Analysis:**
+####**Exploratory Data Analysis:**
 
 1. Presented summary statistics for the numerical features in the dataset
 
@@ -79,15 +79,14 @@ Geographical Data - https://github.com/albertyw/avenews/blob/master/old/data/ave
 
 7. Displayed a bar chart representing the food supply stage with the most significant amount of loss
 
-**Preprocessing:**
+####**Preprocessing:**
 
 1.
 2.
 3.
 
 
-**Modeling:**
-## Modeling
+####**Modeling:**
 
 In our regression problem, we chose to assess the performances of Random Forest, Decision Tree, Stacking (features = Random Forest, Decision Tree, Bagging; estimator = Linear Regression), and Gradient Boosting.
 
