@@ -87,21 +87,37 @@ Geographical Data - https://github.com/albertyw/avenews/blob/master/old/data/ave
 
 
 **Modeling:**
+## Modeling
 
-1.
-2.
-3.
+In our regression problem, we chose to assess the performances of Random Forest, Decision Tree, Stacking (features = Random Forest, Decision Tree, Bagging; estimator = Linear Regression), and Gradient Boosting.
 
+**Regression Models**
+|Model|R2|MSE|RMSE
+|---|---|---|---|
+|Decision Tree|0.6063|10.5502|3.2481
+|Random Forest|0.7174|7.5719|2.7517
+|Stacking|0.7224|7.4384|2.7273
+|Gradient Boosting|0.4874|13.7363|3.7063
 
-# Models' Results and Evaluation 
+**Regression Evaluation**: Overall, the best performing model was Stacking wth a R2 score of 72.24% with Random Forest following closely at 71.74%. 72.24% of the variability in the 'loss_percentage' that can be explained by the features in our model. The Mean Squared Error (MSE) averages the squared difference between estimated values and actual values. Although at 7.4384, Stacking still had the lowest score that means the predictions are decently close to the actual values. One concern we had with our models was the overfitting of the train data against the test data. Even though the scores were high, the model may not be receiving new data well to make accurate predictions. 
 
+For our classification problem, we examined models of Random Forest, Decision Tree, and Neural Networks.
 
+**Classification Models**
+|Model|Recall|Precision|F1|Accuracy
+|---|---|---|---|---|
+|Random Forest|0.9628|0.9617|0.9619|0.9628
+|Decision Tree|0.9641|0.9643|0.9641|0.9641
+|Neural Network|0.9246|0.9146|0.9176|0.9246
 
-# Recommendations
+**Classification Evaluation**: All models that we experimented with performed well and could be justified in use depending on your problem statement and approach. The Decision Tree demonstrated the best Accuracy score of 96.41%, meaning that given a prediction, we would have a likelihood to be correct 96.41% of the time. Despite this, we remind you that the dataset is imbalanced as 'Farm' dominates over 40% of the data while the remaining 16 labels each represent less than 20%. To further our models, we'd recommend doing imbalanced data techniques like SMOTE or AdaSyn to evaluate its results. We also assessed the F1 scores that finds the balance between the recall and precision metrics on correct predictions over a dataset. In a case of false negatives or positives, producers could distribute the incorrect resources on a Farm stage which would hinder the entire stage if the actual problem is not being resolved. Decision Tree's F1 score was 96.41% that shows its ability to balance false positives and false negatives.
 
+## Conclusions & Recommendations
+**Real-World Application Example**: Earlier, we noted that Haiti had the highest food loss percentage with over 50% of their food production being lost or wasted. In December 2022, the United Nations drew attention to the impending crisis in Haiti where approximately 4.7 million people are struggling with food insecurity. Reasons for this crisis include the "poor performance on agricultural productions and heavy dependence on food imports'' ([*source*](https://news.un.org/en/story/2022/12/1131572)) that are subject to inflation and price volatility. To understand better where food is lost or wasted the most, we could employ our regression model in predicting these values among their regions. Our classification model would extend these steps by accurately classifying the food supply stage that correlates most with that region. These initiatives could be taken on by global leaders with the ability to financially support the action plan for Haitian producers and farmers. To further our solution, we would recommend adding features that consider weather patterns (e.g. droughts, hurricanes), and evaluating the agricultural land quality that contribute to food loss. If we recognize how food is lost, we can mitigate the impact by distributing resources more effectively (e.g. more infrastructure support if it's 'Farm' that needs to be focused on).  
 
-
-
+**Other Recommendations**
+* Further Research: To improve predictions and accuracy, we recommend additional research to investigate other features that may influence loss percentage and were not included in the dataset. We could include variables like socioeconomic factors, infrastructure, technology investments, market dynamics, weather patterns. This approach will enable us to develop better models that capture the dimensionality of the problem, facilitating more effective strategies to mitigate food loss in the future.
+* Other Policy Making, Investment in Technology, Awareness and Education
 
 
 ----
