@@ -15,7 +15,6 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
         * [Exploratory Data Analysis](#exploratory-data-analysis)
         * [Preprocessing](#preprocessing)
         * [Modeling](#modeling)
-   * [Models' Results and Evaluation](#models-results-and-evaluation)
    * [Conclusions & Recommendations](#conclusions--recommendations)
    
 
