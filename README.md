@@ -10,7 +10,11 @@ By: Lisa Liang, Juliana Sahagun, Triston Crossland
    * [Model Goals](#model-goals)
    * [Data](#data)
    * [Methods](#methods)
-        * [Data Cleaning]
+        * [Data Collection](#data-collection)
+        * [Data Cleaning](#data-cleaning)
+        * [Exploratory Data Analysis](#exploratory-data-analysis)
+        * [Preprocessing](#preprocessing)
+        * [Modeling](#modeling)
    * [Models' Results and Evaluation](#models-results-and-evaluation)
    * [Conclusions & Recommendations](#conclusions--recommendations)
    
